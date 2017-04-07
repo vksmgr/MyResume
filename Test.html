@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            display: flex;
+            /*align-items: flex-start;
+            align-items: flex-end;*/
+            flex-direction: row;
+        }
+        .container div{
+            border: 1px #ccc solid;
+            padding: 10px;
+        }
+        .box1{
+            flex: 2;
+            order: 2;
+        }
+        .box2{
+            flex: 1;
+            order: 1;
+        }
+        .box3{
+            flex: 1;
+            order: 3;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1">
+        <h3>Box 1</h3>
+        <p>In a real application, you probably won't be setting state with a timer. You might set state when you have new data arrive from the server, or from user input. Y</p>
+    </div>
+    <div class="box2">
+        <h3>Box 2</h3>
+        <p>In a real application, you probably won't be setting state with a timer. You might set state when you have new data arrive from the server, or from user input. Y</p>
+    </div>
+    <div class="box3">
+        <h3>Box 3</h3>
+        <p>In a real application, you probably won't be setting state with a timer. You might set state when you have new data arrive from the server, or from user input. Y</p>
+    </div>
+</div>
+
+</body>
+</html>
